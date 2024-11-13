@@ -18,13 +18,13 @@ const data = [
   },
   {
     icon: <GiGiftOfKnowledge />,
-    heading: "Símbolo de Conhecimento e Sabedoria",
+    heading: "Conhecimento e Sabedoria",
     detail:
       "Considerando a associação do nome de Atlas com coleções de mapas (atlas), ele pode ser interpretado como um símbolo do conhecimento geográfico e sabedoria, promovendo a ideia de explorar e compreender o mundo ao nosso redor.",
   },
   {
     icon: <GiMountainClimbing />,
-    heading: "Transformação e Superando Desafios",
+    heading: "Superação de Desafios",
     detail:
       "Atlas, mesmo sob uma punição divina, continua a desempenhar seu papel. Isso pode ser interpretado como um símbolo de superação e transformação, destacando a capacidade de crescer através da adversidade.",
   },
