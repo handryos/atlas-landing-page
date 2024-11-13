@@ -3,7 +3,7 @@ import "./PropertyCard.css";
 
 const PropertyCard = ({ card }) => {
   return (
-    <div style={{ marginLeft: "3rem" }} className="flexColStart r-card">
+    <div className="flexColStart r-card">
       <img src={card.image} alt="home" />
       <span className="secondaryText r-price">
         <span>{card.label}</span>
