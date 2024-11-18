@@ -10,7 +10,7 @@ const Contact = () => {
         {/* left side */}
         <div className="flexColStart c-left">
           <span className="orangeText">Nossos Contatos</span>
-          <span className="primaryText">Formas simples para nos contatar</span>
+          <span className="primaryText">Formas simples de nos contatar</span>
           <span className="secondaryText">
             Estamos sempre prontos para ajudar, fornecendo os melhores serviços
             para você.
@@ -22,7 +22,7 @@ const Contact = () => {
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
-                    <MdEmail size={25} />
+                    <MdEmail style={{ fill: "#e52929" }} size={25} />
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">E-mail</span>
@@ -47,8 +47,8 @@ const Contact = () => {
 
               <div className="flexColCenter mode">
                 <div className="flexStart">
-                  <div className="flexCenter icon">
-                    <BsWhatsapp size={25} />
+                  <div style={{ color: "red" }} className="flexCenter icon">
+                    <BsWhatsapp style={{ fill: "green" }} size={25} />
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">WhatsApp</span>
@@ -71,7 +71,7 @@ const Contact = () => {
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
-                    <BsWhatsapp size={25} />
+                    <BsWhatsapp style={{ fill: "green" }} size={25} />
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">WhatsApp</span>

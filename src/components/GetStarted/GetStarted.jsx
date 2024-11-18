@@ -8,12 +8,13 @@ const GetStarted = () => {
           <span className="primaryText">
             Dê o primeiro passo para transformar inadimplência em crescimento.
           </span>
-          <span className="secondaryText">
+          <span style={{ color: "#c1c1c1" }} className="secondaryText">
             Vamos começar?
             <br />
           </span>
           <button className="button" href>
             <a
+              style={{ color: "black" }}
               target="_blank"
               href={
                 "https://mail.google.com/mail/?view=cm&fs=1&to=consultoria.atlas@outlook.com"

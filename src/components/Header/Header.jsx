@@ -114,6 +114,9 @@ const Header = () => {
                 duration: 2,
                 type: "ease-in",
               }}
+              style={{
+                background: window.innerWidth <= 576 ? "black" : "white",
+              }}
               className="button"
             >
               <motion.span
@@ -128,6 +131,9 @@ const Header = () => {
                   className={
                     window.innerWidth <= 576 ? "buttons" : "buttons-header"
                   }
+                  style={{
+                    color: window.innerWidth <= 576 ? "white" : "black",
+                  }}
                   onClick={scrollToContacts}
                 >
                   Contato
