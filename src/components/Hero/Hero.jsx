@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   const formatNumber = (value) => {
     return value.toLocaleString("pt-BR", {
-      minimumFractionDigits: 2, // Define casas decimais, se necessário.
+      minimumFractionDigits: 2,
       maximumFractionDigits: 2,
     });
   };
@@ -53,8 +53,8 @@ const Hero = () => {
             <div className="flexColCenter stat">
               <span>
                 <CountUp
-                  start={1603150120}
-                  end={1603150733}
+                  start={15315073.32}
+                  end={16315073.32}
                   formattingFn={formatNumber}
                   duration={4}
                 />{" "}
