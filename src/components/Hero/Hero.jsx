@@ -53,8 +53,8 @@ const Hero = () => {
             <div className="flexColCenter stat">
               <span>
                 <CountUp
-                  start={16003150120}
-                  end={16003150733}
+                  start={1603150120}
+                  end={1603150733}
                   formattingFn={formatNumber}
                   duration={4}
                 />{" "}
