@@ -18,10 +18,7 @@ const Value = () => {
       <div className="paddings innerWidth flexCenter v-container">
         {/* left side */}
         <div className="v-left">
-          <div
-            style={{ height: window.innerWidth <= 576 ? "25rem" : "30rem" }}
-            className="image-container"
-          >
+          <div style={{ height: "25rem" }} className="image-container">
             <img src="./img.png" alt="" />
           </div>
         </div>
