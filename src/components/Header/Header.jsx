@@ -86,23 +86,7 @@ const Header = () => {
                 Serviços
               </p>
             </motion.div>
-            <motion.a
-              initial={{ y: "2rem", opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{
-                duration: 2,
-                type: "ease-in",
-              }}
-            >
-              <p
-                className={
-                  window.innerWidth <= 576 ? "buttons" : "buttons-header"
-                }
-                onClick={scrollToCompanies}
-              >
-                Clientes
-              </p>
-            </motion.a>
+
             <motion.div
               initial={{ y: "2rem", opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}

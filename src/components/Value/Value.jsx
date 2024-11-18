@@ -25,7 +25,7 @@ const Value = () => {
             style={{ height: window.innerWidth <= 576 ? "25rem" : "45rem" }}
             className="image-container"
           >
-            <img src="./atlas.jpg" style={{ filter: "blur(1.2px)" }} alt="" />
+            <img src="./img.png" alt="" />
           </div>
         </div>
 
