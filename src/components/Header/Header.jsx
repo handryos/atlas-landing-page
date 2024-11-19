@@ -86,23 +86,7 @@ const Header = () => {
                 Serviços
               </p>
             </motion.div>
-            <motion.a
-              initial={{ y: "2rem", opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{
-                duration: 2,
-                type: "ease-in",
-              }}
-            >
-              <p
-                className={
-                  window.innerWidth <= 576 ? "buttons" : "buttons-header"
-                }
-                onClick={scrollToCompanies}
-              >
-                Clientes
-              </p>
-            </motion.a>
+
             <motion.div
               initial={{ y: "2rem", opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -130,6 +114,9 @@ const Header = () => {
                 duration: 2,
                 type: "ease-in",
               }}
+              style={{
+                background: window.innerWidth <= 576 ? "black" : "white",
+              }}
               className="button"
             >
               <motion.span
@@ -144,6 +131,9 @@ const Header = () => {
                   className={
                     window.innerWidth <= 576 ? "buttons" : "buttons-header"
                   }
+                  style={{
+                    color: window.innerWidth <= 576 ? "white" : "black",
+                  }}
                   onClick={scrollToContacts}
                 >
                   Contato

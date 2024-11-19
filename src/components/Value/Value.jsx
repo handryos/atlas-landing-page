@@ -8,10 +8,7 @@ import {
   AccordionItemState,
 } from "react-accessible-accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
-import {
-  MdOutlineArrowDropDown,
-  MdOutlineArrowDropDownCircle,
-} from "react-icons/md";
+import { MdOutlineArrowDropDown } from "react-icons/md";
 import data from "../../utils/accordion.jsx";
 import "./Value.css";
 
@@ -22,10 +19,10 @@ const Value = () => {
         {/* left side */}
         <div className="v-left">
           <div
-            style={{ height: window.innerWidth <= 576 ? "25rem" : "45rem" }}
+            style={{ height: window.innerWidth <= 576 ? "18rem" : "25rem" }}
             className="image-container"
           >
-            <img src="./atlas.jpg" style={{ filter: "blur(1.2px)" }} alt="" />
+            <img src="./img.png" alt="" />
           </div>
         </div>
 

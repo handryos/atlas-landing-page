@@ -66,13 +66,7 @@ const Footer = () => {
             >
               Serviços
             </span>
-            <span
-              className="buttons"
-              style={{ cursor: "pointer" }}
-              onClick={scrollToCompanies}
-            >
-              Clientes
-            </span>
+
             <span
               className="buttons"
               style={{ cursor: "pointer" }}

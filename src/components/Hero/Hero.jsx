@@ -2,6 +2,12 @@ import "./Hero.css";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 const Hero = () => {
+  const formatNumber = (value) => {
+    return value.toLocaleString("pt-BR", {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
+    });
+  };
   return (
     <section id="home" className="hero-wrapper">
       <div className="paddings innerWidth flexCenter hero-container">
@@ -46,25 +52,25 @@ const Hero = () => {
           >
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={800} end={1000} duration={4} /> <span>+</span>
-              </span>
-              <span className="secondaryText">Quantidade de Processos</span>
-            </div>
-
-            <div className="flexColCenter stat">
-              <span>
-                <CountUp start={9999900} end={10000000} duration={4} />{" "}
+                <CountUp
+                  start={15315073.32}
+                  end={16315073.32}
+                  formattingFn={formatNumber}
+                  duration={4}
+                />{" "}
                 <span>+</span>
               </span>
-              <span className="secondaryText">Valor recuperado</span>
+              <span className="secondaryText">Ativos sob gestão</span>
             </div>
 
             <div className="flexColCenter stat">
               <span>
-                <CountUp end={80} /> <span>%</span>
+                <CountUp start={90} end={100} duration={6} /> <span>+</span>
               </span>
-              <span className="secondaryText">Taxa de sucesso</span>
+              <span className="secondaryText">Empresas atendidas</span>
             </div>
+
+            <div className="flexColCenter stat"></div>
           </motion.div>
         </div>
         {/* right side */}
