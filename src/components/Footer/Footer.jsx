@@ -32,7 +32,7 @@ const Footer = () => {
             style={{ top: "2rem", position: "relative" }}
             src="./logo3.png"
             alt=""
-            width={120}
+            width={160}
           />
           <span className="secondaryText">
             Transformando dívidas em oportunidades,
