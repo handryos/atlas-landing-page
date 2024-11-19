@@ -95,7 +95,7 @@
   }
   .stats {
     justify-content: center;
-    gap: 1.5rem;
+    gap: 3rem;
     font-weight: wrap;
   }
   .stat > :nth-child(1) {
